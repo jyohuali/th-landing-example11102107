@@ -35,11 +35,35 @@ body{
   color: #c17d37;
   text-align: center;
   font-family: "helvetica" sans-serif;
-
-
-
+  font-size: 50px;
+  transition: 0.5s;
 }
 
-
-
+@media (max-width: 1000px){
+  .landing {
+    font-size: 2rem;
+  }
 }
+
+@media (max-width: 700px){
+    .landing{
+      background-image: url("../images/homemade-sp.jpg");
+ }
+}
+
+.row{
+  display: flex;
+  background: #e6a2c5;
+  }
+
+.col-3{
+  width: 100%;
+}
+
+@@media (max-width 700px){
+  .row{
+    display: block;
+    }
+.col-3{
+  width: 100%;
+  }
